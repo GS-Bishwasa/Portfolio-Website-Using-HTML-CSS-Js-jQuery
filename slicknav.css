@@ -177,6 +177,8 @@
   margin: 2px 5px;
   text-decoration: none;
   color: #06f;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .slicknav_nav a:hover {
@@ -185,7 +187,9 @@
   border-radius: 0px;
   background: #0050c7;
   color: #fff
-};
+}
+
+
 
 .slicknav_nav .slicknav_txtnode {
   margin-left: 15px;
@@ -203,8 +207,9 @@
 
 .slicknav_brand {
   color: #06f;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 30px;
   padding: 7px 12px;
   height: 44px;
+  font-weight: 600;
 }
