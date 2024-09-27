@@ -2,71 +2,173 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 
 
-    <link rel="stylesheet" href="slicknav.css" />
-    <script src="jquery.slicknav.js"></script>
+  <link rel="stylesheet" href="slicknav.css" />
+  <script src="jquery.slicknav.js"></script>
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 
 
 
-    <link type="text/css" href="skitter.css" media="all" rel="stylesheet" />
-    <script type="text/javascript" src="jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="jquery.skitter.min.js"></script>
+  <link type="text/css" href="skitter.css" media="all" rel="stylesheet" />
+  <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="jquery.skitter.min.js"></script>
+
+
+  <link rel="stylesheet" href="owl.carousel.min.css">
+  <link rel="stylesheet" href="owl.theme.default.min.css">
+  <script src="owl.carousel.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
 
 </head>
 
 <body>
-    <ul id="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact Us</a></li>
-    </ul>
+  <ul id="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
 
 
-    <div id="desktop_menu">
-        <div class="brand_name">
-            <a href="#">GS Bishwasa</a>
-        </div>
-
-        <ul class="list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
+  <div id="desktop_menu">
+    <div class="brand_name">
+      <a href="#">GS Bishwasa</a>
     </div>
 
+    <ul class="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
 
-<!-- Image Slider -->
-    <div class="skitter skitter-large">
-        <ul>
-          <li>
-            <a href="#cut"><img src="image/a.jpg" class="cut" /></a>
-            <div class="label_text"><p>cut</p></div>
-          </li>
-          <li>
-            <a href="#swapBlocks"><img src="image/b.jpg" class="swapBlocks" /></a>
-            <div class="label_text"><p>swapBlocks</p></div>
-          </li>
-          <li>
-            <a href="#swapBarsBack"><img src="image/c.jpg" class="swapBarsBack" /></a>
-            <div class="label_text"><p>swapBarsBack</p></div>
-          </li>
-        </ul>
+
+  <!-- Image Slider -->
+  <div class="skitter skitter-large">
+    <ul>
+      <li>
+        <a href="#cut"><img src="images/a.jpg" class="cut" /></a>
+        <!-- <div class="label_text"><p>cut</p></div> -->
+      </li>
+      <li>
+        <a href="#directionRight"><img src="images/b.jpg" class="directionRight" /></a>
+        <!-- <div class="label_text"><p>swapBlocks</p></div> -->
+      </li>
+      <li>
+        <a href="#swapBarsBack"><img src="images/c.jpg" class="swapBarsBack" /></a>
+        <!-- <div class="label_text"><p>swapBarsBack</p></div> -->
+      </li>
+    </ul>
+  </div>
+
+  <!-- Brand Image Slider -->
+  <h1 id="projects">MY PROJECTS</h1>
+  <div class="owl-carousel my_project">
+    <div> <img src="images/html.png"> </div>
+    <div> <img src="images/css.png"> </div>
+    <div> <img src="images/js (2).png"> </div>
+    <div> <img src="images/jQuery.png"> </div>
+    <div> <img src="images/react.png"> </div>
+    <div> <img src="images/cpp.png"> </div>
+    <div> <img src="images/nodejs.png"> </div>
+    <!-- <div> <img src="images/php.png"> </div> -->
+    <div> <img src="images/bootstrap.png"> </div>
+
+  </div>
+
+
+  <div id="about">
+    <h1 id="h1">ABOUT</h1>
+    <div id="boxes">
+
+      <div id="cube1">
+        <div class="circle">
+          <span id="icon1" class="mdi mdi-speedometer"></span>
+        </div>
+        <h1>FAST</h1>
+        <h6>Fast load times and Lag free <br>interactions. My highest priority</h6>
       </div>
 
+      <div id="cube2">
+        <div class="circle">
+          <span id="icon1" class="mdi mdi-responsive"></span>
+        </div>
+        <h1>RESPONSIVE</h1>
+        <h6>My Layout Designs Will Work on any<br>device, Big and Small</h6>
+      </div>
+
+      <div id="cube3">
+        <div class="circle">
+          <span id="icon1" class="mdi mdi-monitor-dashboard"></span>
+        </div>
+        <h1>BEST UI & UX</h1>
+        <h6>My Website have best user-<br>Interference & User Experience</h6>
+      </div>
+
+      <div id="cube4">
+        <div class="circle">
+          <span id="icon1" class="mdi mdi-wrench"></span>
+        </div>
+        <h1>DYNAMIC</h1>
+        <h6>Our clients manage our websites<br>easily</h6>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row_two">
+    <div class="call_left">
+      <img src="images/my_pic.png">
+    </div>
+    <div class="call_right">
+      <h1>MY SKILLS</h1>
+      <label>HTML</label>
+      <div class="progress_box">
+        <div class="progress_bar_html"><span>80%</span></div>
+      </div>
+      
+      <label>CSS 2</label>
+      <div class="progress_box">
+        <div class="progress_bar_css2"><span>70%</span></div>
+      </div>
+
+      <label>CSS 3</label>
+      <div class="progress_box">
+        <div class="progress_bar_css3"><span>90%</span></div>
+      </div>
+
+      <label>JAVA SCRIPT</label>
+      <div class="progress_box">
+        <div class="progress_bar_js"><span>85%</span></div>
+      </div>
+
+      <label>C++</label>
+      <div class="progress_box">
+        <div class="progress_bar_cpp"><span>90%</span></div>
+      </div>
+
+      <label>jQuery</label>
+      <div class="progress_box">
+        <div class="progress_bar_jq"><span>60%</span></div>
+      </div>
+
+     
+    </div>
+  </div>
 
 
 </body>

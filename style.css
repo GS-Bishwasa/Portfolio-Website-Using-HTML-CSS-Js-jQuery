@@ -16,7 +16,7 @@ body {}
 #desktop_menu {
     width: 100%;
     background-color: white;
-    box-shadow: 0px 5px 8px #ccc;
+    box-shadow: 0px 5px 8px #323232;
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +32,7 @@ body {}
 }
 
 #desktop_menu li {
-    padding: 15px;
+    padding: 20px;
     list-style: none;
 
 }
@@ -49,21 +49,148 @@ body {}
 #desktop_menu li a {
     text-decoration: none;
     font-weight: 600;
-    color: #06f;
-    font-size: 16px;
+    color: #323232;
+    font-size: 20px;
 }
 
-.brand_name{
+.brand_name {
     display: flex;
     align-items: center;
-margin: 10px 10px;
-float: left;
+    margin: 12px 10px;
+    float: left;
 }
 
-.brand_name a{
-    font-size: 25px;
+.brand_name a {
+    font-size: 30px;
     text-decoration: none;
     color: #06f;
+    font-weight: 600;
+}
+
+.my_project {
+    padding-left: 80px;
+    padding-right: 55px;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+}
+
+#projects {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+#boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+
+}
+
+#about #h1 {
+    text-align: center;
+    /* margin-top: 10px; */
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#cube1,
+#cube2,
+#cube3,
+#cube4 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid #06f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+
+/* CUBE 1 TEXT AND ICON */
+#cube1 h1 {
+    text-align: center;
+}
+
+#cube1 h6 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #929696;
+}
+
+#icon1 {
+    font-size: 70px;
+    color: #0080ff;
+}
+
+/* CUBE 2 TEXT AND ICON */
+#cube2 h1 {
+    text-align: center;
+}
+
+#cube2 h6 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #929696;
+}
+
+#icon2 {
+    font-size: 70px;
+    color: #0080ff;
+}
+
+/* CUBE 3 TEXT AND ICON */
+#cube3 h1 {
+    text-align: center;
+}
+
+#cube3 h6 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #929696;
+}
+
+#icon3 {
+    font-size: 70px;
+    color: #0080ff;
+}
+
+/* CUBE 4 TEXT AND ICON */
+#cube4 h1 {
+    text-align: center;
+}
+
+#cube4 h6 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #929696;
+}
+
+#icon4 {
+    font-size: 70px;
+    color: #0080ff;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #3fc8f23b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 @media (max-width:992px) {
@@ -76,6 +203,87 @@ float: left;
     }
 }
 
+/* #boxes{
+    flex-direction: column;
+    align-items: center;
+} */
+
+#row_two{
+    width: 100%;
+    display: flex;
+}
+.call_left{
+    width: 50%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    align-items: center;
+}
+.call_left img{
+    height: 300px;
+}
+.call_right{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.call_right label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.call_right h1{
+   text-align: center;
+}
+
+.progress_box{
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.progress_bar_html{
+    width: 80%;
+    background-color: green;
+    height: 20px;
+    text-align: center;
+}
+.progress_bar_css2{
+    width: 70%;
+    background-color: red;
+    height: 20px;
+    text-align: center;
+}
+.progress_bar_css3{
+    width: 90%;
+    background-color: yellow;
+    height: 20px;
+    text-align: center;
+}
+.progress_bar_js{
+    width: 85%;
+    background-color: blue;
+    height: 20px;
+    text-align: center;
+}
+.progress_bar_cpp{
+    width: 90%;
+    background-color: rgb(196, 51, 196);
+    height: 20px;
+    text-align: center;
+}
+
+.progress_bar_jq{
+    width: 60%;
+    background-color: orange;
+    height: 20px;
+    text-align: center;
+}
+.progress_box span{
+    color: white;
+
+}
+
 @media (min-width:992px) {
     #desktop_menu {
         display: block;
@@ -83,5 +291,96 @@ float: left;
 
     .slicknav_menu {
         display: none;
+    }
+
+    /* #boxes{
+        flex-direction: column;
+        align-items: center;
+    } */
+}
+
+@media (max-width:768px) {
+    #boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cube1,
+    #cube2,
+    #cube3,
+    #cube4 {
+        width: 565px;
+
+    }
+}
+
+@media (max-width:426px) {
+    #boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cube1,
+    #cube2,
+    #cube3,
+    #cube4 {
+        width: 300px;
+
+    }
+}
+
+@media (min-width:2560px) {
+
+    #cube1,
+    #cube2,
+    #cube3,
+    #cube4 {
+        height: 500px;
+        width: 500px;
+
+    }
+
+    #projects {
+        font-size: 60px;
+    }
+
+    #about #h1 {
+        font-size: 60px;
+    }
+
+    .circle {
+        height: 200px;
+        width: 200px;
+    }
+
+    #icon1 {
+        font-size: 90px;
+    }
+
+    #cube1 h1 {
+        font-size: 50px;
+    }
+    #cube2 h1 {
+        font-size: 50px;
+    }
+    #cube3 h1 {
+        font-size: 50px;
+    }
+    #cube4 h1 {
+        font-size: 50px;
+    }
+
+
+    #cube1 h6 {
+        font-size: 17px;
+    }
+    #cube2 h6 {
+        font-size: 17px;
+    }
+    #cube3 h6 {
+        font-size: 17px;
+    }
+    #cube4 h6 {
+        font-size: 17px;
     }
 }
