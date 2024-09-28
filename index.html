@@ -37,8 +37,8 @@
 <body>
   <ul id="menu">
     <li><a href="#">Home</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">Services</a></li>
+    <li><a href="#abt">About Us</a></li>
+    <li><a href="#prj">Projects</a></li>
     <li><a href="#">Contact Us</a></li>
   </ul>
 
@@ -50,8 +50,8 @@
 
     <ul class="list">
       <li><a href="#">Home</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="#abt">About Us</a></li>
+      <li><a href="#prj">Projects</a></li>
       <li><a href="#">Contact Us</a></li>
     </ul>
   </div>
@@ -75,15 +75,15 @@
     </ul>
   </div>
 
- 
 
-<!-- About Section -->
-  <div id="about" style="margin: 20px 0 0 0;">
+
+  <!-- About Section -->
+  <div class="about" id="abt" style="margin: 20px 0 0 0;">
     <h1 id="h1">ABOUT</h1>
-    <div id="boxes">
+    <div id="boxes" >
 
       <div id="cube1">
-        <div class="circle">
+        <div class="circle" id="abt">
           <span id="icon1" class="mdi mdi-speedometer"></span>
         </div>
         <h1>FAST</h1>
@@ -118,20 +118,18 @@
 
 
 
- <!-- Brand Image Slider -->
- <h1 id="projects"style="margin: 20px 0 0 0;">MY PROJECTS</h1>
- <div class="owl-carousel my_project">
-   <div> <img src="images/html.png"> </div>
-   <div> <img src="images/css.png"> </div>
-   <div> <img src="images/js (2).png"> </div>
-   <div> <img src="images/jQuery.png"> </div>
-   <div> <img src="images/react.png"> </div>
-   <div> <img src="images/cpp.png"> </div>
-   <div> <img src="images/nodejs.png"> </div>
-   <!-- <div> <img src="images/php.png"> </div> -->
-   <div> <img src="images/bootstrap.png"> </div>
 
- </div>
+
+
+
+
+
+
+  <br>
+
+
+
+
 
 
   <div class="row_two">
@@ -144,7 +142,7 @@
       <div class="progress_box">
         <div class="progress_bar_html"><span>80%</span></div>
       </div>
-      
+
       <label>CSS 2</label>
       <div class="progress_box">
         <div class="progress_bar_css2"><span>70%</span></div>
@@ -170,48 +168,122 @@
         <div class="progress_bar_jq"><span>60%</span></div>
       </div>
 
-     
+
     </div>
   </div>
 
 
-<div class="row_three">
-  <div class="collum">
-<div class="project">
-  <img src="images/w1.png" width="100%" height="150">
-  <h3 class="project_name"><a href="projects/Netflix Clone/index.html">Netflix Clone</a></h3>
-</div>
-  </div>
+  <h1 id="projects">WHAT PEOPLE SAY</h1>
+  <div class="row_four">
+    <div class="col_three">
+      <div class="user">
+        <div class="user_top">
+          <div class="user_pic"><img src="images/silk.png"></div>
+          <div class="user_name">
+            <h2>Annonymous</h2>
+          </div>
+        </div>
+        <div class="user_bottom">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quis quaerat quos suscipit eveniet ut
+            dolore et, eius quasi necessitatibus sint, reprehenderit dicta inventore quod asperiores obcaecati
+            aspernatur, alias maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, quis!</p>
+        </div>
+      </div>
+    </div>
 
-  <div class="collum">
-    <div class="project">
-      <img src="images/w2.png"width="100%" height="150" >
-      <h5 class="project_name" style="font-size: 15px;"><a target="_blank" href="projects/Responsive Food Delivery Website/index.html">Responsive Food Delivery Website</a></h5>
+    <div class="col_three">
+      <div class="user">
+        <div class="user_top">
+          <div class="user_pic"><img src="images/silk.png"></div>
+          <div class="user_name">
+            <h2>Annonymous</h2>
+          </div>
+        </div>
+        <div class="user_bottom">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quis quaerat quos suscipit eveniet ut
+            dolore et, eius quasi necessitatibus sint, reprehenderit dicta inventore quod asperiores obcaecati
+            aspernatur, alias maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, quis!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col_three">
+      <div class="user">
+        <div class="user_top">
+          <div class="user_pic"><img src="images/silk.png"></div>
+          <div class="user_name">
+            <h2>Annonymous</h2>
+          </div>
+        </div>
+        <div class="user_bottom">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quis quaerat quos suscipit eveniet ut
+            dolore et, eius quasi necessitatibus sint, reprehenderit dicta inventore quod asperiores obcaecati
+            aspernatur, alias maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, quis!</p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="collum">
-    <div class="project">
-      <img src="images/w3.png"width="100%" height="150">
-      <h3 class="project_name"><a target="_blank" href="http://spotifydomin.freewebhostmost.com/">Spotify Clone</a></h3>
-    </div>
+  <hr>
+
+  <!-- Brand Image Slider -->
+  <h1 id="projects" style="margin: 20px 0 0 0;">MY PROJECTS</h1>
+  <div class="owl-carousel my_project" id="prj">
+    <div> <img src="images/html.png"> </div>
+    <div> <img src="images/css.png"> </div>
+    <div> <img src="images/js (2).png"> </div>
+    <div> <img src="images/jQuery.png"> </div>
+    <div> <img src="images/bootstrap.png"> </div>
+    <div> <img src="images/mongodb.png"> </div>
+    <div> <img src="images/expressjs.png"> </div>
+    <div> <img src="images/react.png"> </div>
+    <div> <img src="images/nodejs.png"> </div>
+    <div> <img src="images/cpp.png"> </div>
+    <div> <img src="images/mysql.png"> </div>
+    <!-- <div> <img src="images/php.png"> </div> -->
+
   </div>
 
-  <div class="collum">
-    <div class="project">
-      <img src="images/w4.png"width="100%" height="150">
-      <h3 class="project_name"><a target="_blank" href="projects/CH 50 Part 1/index.html">Social App</a></h3>
+
+  <div class="row_three">
+    <div class="collum">
+      <div class="project">
+        <img src="images/w1.png" width="100%" >
+        <h3 class="project_name"><a target="_blank" href="projects/Netflix Clone/index.html">Netflix Clone</a></h3>
+      </div>
+    </div>
+
+    <div class="collum">
+      <div class="project">
+        <img src="images/w2.png" width="100%" >
+        <h3 class="project_name"><a target="_blank" href="projects/Responsive Food Delivery Website/index.html">Food
+            Delivery</a></h3>
+      </div>
+    </div>
+
+    <div class="collum">
+      <div class="project">
+        <img src="images/w3.png" width="100%" >
+        <h3 class="project_name"><a target="_blank" href="http://spotifydomin.freewebhostmost.com/">Spotify Clone</a>
+        </h3>
+      </div>
+    </div>
+
+    <div class="collum">
+      <div class="project">
+        <img src="images/w4.png" width="100%" >
+        <h3 class="project_name"><a target="_blank" href="projects/CH 50 Part 1/index.html">Social App</a></h3>
+      </div>
+    </div>
+
+    <div class="collum">
+      <div class="project">
+        <img src="images/w5.png" width="100%" >
+        <h3 class="project_name"><a target="_blank"
+            href="projects/Simple Video Player Using HTML, CSS, JS/index.html">Video Player</a></h3>
+      </div>
     </div>
   </div>
-
-  <div class="collum">
-    <div class="project">
-      <img src="images/w5.png"width="100%" height="150">
-      <h3 class="project_name"><a target="_blank" href="projects/Simple Video Player Using HTML, CSS, JS/index.html">Video Player</a></h3>
-    </div>
-  </div>
-</div>
-
 
 </body>
 
