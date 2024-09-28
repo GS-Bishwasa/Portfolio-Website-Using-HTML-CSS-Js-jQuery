@@ -38,3 +38,19 @@ $(document).ready(function() {
         }
     })
   });
+
+  $(function(){
+    $(".progress_bar_html").animate({"width":"80%"},1000,function(){
+        $(".progress_bar_css2").animate({"width":"70%"},1000,function(){
+            $(".progress_bar_css3").animate({"width":"90%"},1000,function(){
+                $(".progress_bar_js").animate({"width":"85%"},1000,function(){
+                    $(".progress_bar_cpp").animate({"width":"90%"},1000,function(){
+                        $(".progress_bar_jq").animate({"width":"60%"},1000,function(){
+        
+                        })
+                    })
+                })
+            })
+        })
+    })
+  })
